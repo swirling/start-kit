@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders counter 1`] = `
+<div
+  className="a"
+>
+  <div
+    className="b"
+  >
+    3
+    ----
+    1
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    addone
+  </button>
+</div>
+`;
