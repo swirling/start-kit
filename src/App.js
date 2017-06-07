@@ -1,12 +1,8 @@
-import React, { Component } from 'react'
-import store from './store'
-import { Provider } from 'react-redux'
-import Route from './Route'
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './store';
+import Route from './Route';
 
-class App extends Component {
-    render() {
-        return <Route />
-    }
-}
+const App = () => <Route />;
 
-export default () => <Provider store={store}><App /></Provider>
+export default () => <Provider store={store}><App /></Provider>;

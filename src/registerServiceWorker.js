@@ -14,7 +14,8 @@ export default function register() {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
       navigator.serviceWorker
         .register(swUrl)
-        .then(registration => {
+        .then((registration) => {
+          /* eslint-disable */
           registration.onupdatefound = () => {
             const installingWorker = registration.installing;
             installingWorker.onstatechange = () => {

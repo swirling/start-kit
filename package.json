@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "history": "^4.6.1",
     "less": "^2.7.2",
     "less-loader": "^4.0.4",
     "prop-types": "^15.5.10",
@@ -15,6 +16,7 @@
     "redux": "^3.6.0",
     "redux-actions": "^2.0.3",
     "redux-form": "^6.7.0",
+    "redux-logger": "^3.0.6",
     "redux-promise": "^0.5.3",
     "redux-thunk": "^2.2.0"
   },
@@ -58,7 +60,6 @@
     "react-dev-utils": "^3.0.0",
     "react-error-overlay": "^1.0.7",
     "react-test-renderer": "^15.5.4",
-    "redux-logger": "^3.0.6",
     "regenerator-runtime": "^0.10.5",
     "style-loader": "0.17.0",
     "sw-precache-webpack-plugin": "0.9.1",
